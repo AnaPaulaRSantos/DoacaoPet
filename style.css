@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(127, 235, 127);
+}
+
+nav{
+	margin-top: -50px;
+    margin-left: 20px;
+    
+}
+li{
+    margin-left: 30px;
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+}
+a{
+   
+	color: rgb(164, 113, 164);
+	padding: 20px;
+	text-decoration: none;
+	font-weight: bold;
+	transition-duration: .5s;
+}  
+a:hover {
+	background-color: rgb(164, 113, 164);
+    color: white;
+	border-radius: 15px;
+}
+
+.redes{
+    margin-top: -80px;
+    margin-left: 1720px;
+    cursor: pointer;
+}
+.capa{
+    opacity: 0.5;
+   
+}
+.desenho{
+    width: 60px;
+    height: 60px;
+  
+    
+}
+.desenho2{
+    width:250px ;
+    height: 250px;
+    margin-top: -263px;
+
+    float: right;
+}
+.divisória{
+    width: 100%;
+    height: 20px;
+    background-color: rgb(127, 235, 127);
+
+}
+.divisória2{
+    margin-top: 700px;
+    width: auto;
+    height: auto;
+   
+    
+}
+#animal1, #animal5{
+    margin-left: 300px;
+} 
+#animal2{
+    margin-top: -280px;
+    margin-left: 650px ;
+}
+#animal3{
+    margin-top: -285px;
+    margin-left: 1000px ;
+}
+#animal4{
+    margin-top: -280px;
+    margin-left: 1350px ;
+}
+#animal6{
+    margin-top: -285px;
+    margin-left: 650px ;
+}
+
+#animal7{
+    margin-top: -280px;
+    margin-left: 1000px ;
+}
+#animal8{
+    margin-top: -280px;
+    margin-left: 1350px ;
+}
+
+body{
+    min-width: 500px;
+    margin: auto;
+    background-color: rgb(245, 246, 226);
+}
+.tamanhofoto{
+    width: 300px;
+    height: 250px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: solid 5px rgb(127, 235, 127);
+    margin-left: 30px;
+}
+
+p{
+    font-size: 60px;
+    width: auto;
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    margin-top: 650px;
+
+}
+#painel{
+    width: 300px;
+    height: 100px;
+    border: solid 7px rgb(144, 72, 144);
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: -700px;
+    margin-left: 750px;
+    background-color: white;
+    font-size: 25px;
+    text-align: center;
+}
+footer{
+    width: 100%;
+    height: 20px;
+    margin-top: 27px;
+    color: rgb(144, 72, 144);
+    font-size: 20px;
+    padding: 25px;
+    text-align: center;
+    background-color: rgb(127, 235, 127);
+}
+
+

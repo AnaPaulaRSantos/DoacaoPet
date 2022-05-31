@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet`s House</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shortcut icon" href="pethouse.png">
+</head>
+
+<script> 
+function definePainel(){
+    var obj= event.target;
+    var painel= document.getElementById("painel");
+    painel.innerHTML= "Nome: " + obj.dataset.nome + "<br>";
+    painel.innerHTML+= "Idade: " + obj.dataset.idade + "<br>";
+    painel.innerHTML+= "Temperamento: " + obj.dataset.temperamento ;
+    
+}
+    function inicia(){
+
+        document.getElementById("animal1").addEventListener("click",definePainel);
+        document.getElementById("animal2").addEventListener("click",definePainel);
+        document.getElementById("animal3").addEventListener("click",definePainel);
+        document.getElementById("animal4").addEventListener("click",definePainel);
+        document.getElementById("animal5").addEventListener("click",definePainel);
+        document.getElementById("animal6").addEventListener("click",definePainel);
+        document.getElementById("animal7").addEventListener("click",definePainel);
+        document.getElementById("animal8").addEventListener("click",definePainel);
+    }
+    window.addEventListener("load", inicia);
+
+
+</script>
+
+<body>
+    <header>
+       
+         <img class="desenho" src="pethouse.png">
+          <nav >
+            <ul>
+                <li><a href="#">Página Inicial</a></li>
+                
+                <li><a href="#">Galeria </a></li>
+                
+                <li><a href="#">Contato </a></li>
+                
+                
+                <li><a href="#">Sobre </a></li>
+            </ul>
+            <img class="redes" src="redes.png">
+          </nav>
+        
+        <div class="capa"><img src="capared.png"></div>
+        <img class="desenho2" src="pethouse.png">
+       <div class="divisória"></div>
+    </header> 
+    
+    <p>Clique em um dos peludinho abaixo e vamos saber mais sobre ele</p>
+    
+    <div class="divisória2">
+        
+        <div id="painel"></div>
+        <div id="animal1" class="animais"><img class="tamanhofoto" src="cao1.png"  data-nome="Bidu" data-idade=" 4 anos" data-temperamento="alegre"></div>
+        <div id="animal2" class="animais"><img class="tamanhofoto" src="cao2.png"  data-nome="Alfredo" data-idade="5 anos" data-temperamento="calmo"></div>
+        <div id="animal3" class="animais"><img class="tamanhofoto" src="cao3.png"  data-nome="Maise" data-idade=" 2 meses" data-temperamento="hiperativa"></div>
+        <div id="animal4" class="animais"><img class="tamanhofoto" src="gato1.png" data-nome="Sardinha" data-idade=" 2 anos" data-temperamento="calmo"></div>
+        <div id="animal5" class="animais"><img class="tamanhofoto" src="gato2.png" data-nome="Mr.Wiskas" data-idade=" 5 anos" data-temperamento="curioso"></div>
+        <div id="animal6" class="animais"><img class="tamanhofoto" src="gato3.png" data-nome="Joaquim" data-idade="7 anos" data-temperamento="alegre, de bem com a vida"></div>
+        <div id="animal7" class="animais"><img class="tamanhofoto" src="gato4.png" data-nome="Salem" data-idade=" 3 anos" data-temperamento="alegria contagiante"></div>
+        <div id="animal8" class="animais"><img class="tamanhofoto" src="cao4.png" data-nome="Bob" data-idade=" 3 anos" data-temperamento="calmo e carinhoso"></div>
+</div>
+    
+    
+</body>
+<footer>Pet`s House &copy</footer>
+</html>
